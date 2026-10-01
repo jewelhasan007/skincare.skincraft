@@ -20,7 +20,7 @@ export function Footer() {
                 Book a complimentary consultation with our expert team and discover the right treatment plan for your skin.
               </p>
               <div className="mt-8">
-                <ButtonLink href="/contact" variant="primary" size="lg">
+                <ButtonLink href="/contact" variant="primary" size="lg" className='h-14'>
                   Book Consultation
                 </ButtonLink>
               </div>

@@ -40,7 +40,7 @@ export function CTASection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-10 flex flex-col sm:flex-row gap-4"
           >
-            <ButtonLink href="/contact" variant="primary" size="lg">
+            <ButtonLink href="/contact" variant="primary" size="lg" className='h-14'>
               Book Consultation
               <ArrowRight className="w-4 h-4" />
             </ButtonLink>

@@ -61,10 +61,10 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.45, ease: [0.22, 1, 0.36, 1] }}
             className="mt-10 flex flex-col sm:flex-row gap-4"
           >
-            <ButtonLink href="/contact" variant="primary" size="lg">
+            <ButtonLink href="/contact" variant="primary" size="lg" className='h-14'>
               Book Consultation
             </ButtonLink>
-            <ButtonLink href="/services" variant="light" size="lg">
+            <ButtonLink href="/services" variant="light" size="lg" className='h-14'>
               View Treatments
               <ArrowRight className="w-4 h-4" />
             </ButtonLink>
